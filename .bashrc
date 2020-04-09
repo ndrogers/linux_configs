@@ -116,19 +116,17 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias developer='source /home/ndrogers/developer/config/config.profile; q /home/ndrogers/developer/launcher.q_ '
 alias stat='git status'
 alias pu='git push'
 alias com='git commit -am '
 alias check='git checkout '
-alias crt='export DISPLAY=localhost:0 cool-retro-term &'
 alias emacs='emacs -nw'
 alias exp='explorer.exe'
 alias mu='neomutt'
 alias dyalog32='/mnt/c/Program\ Files\ \(x86\)/Dyalog/Dyalog\ APL\ 17.1\ Unicode/dyalog.exe'
 alias dyalog='/mnt/c/Program\ Files/Dyalog/Dyalog\ APL-64\ 17.1\ Unicode/dyalog.exe'
 alias trillian='/mnt/c/Program\ Files\ \(x86\)/Trillian/trillian.exe'
-alias cl='rlwrap sbcl'
 export se='/mnt/c/Users/natha/Documents/Dyalog APL-64 17.1 Unicode Files/StartupSession/'
+alias cl='rlwrap sbcl'
 
 export PS1='\[\e[0;36m\]\w\e[m> '
